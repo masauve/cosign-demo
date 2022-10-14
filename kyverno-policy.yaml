@@ -28,7 +28,7 @@ spec:
               - Deployment
       verifyImages:
       - imageReferences:
-        - "quay.io/gnunn/simple-httpd:*"
+        - "quay.io/msauve/*:*"
         attestors:
         - count: 1
           entries:
